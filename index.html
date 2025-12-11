@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Основное -->
+    <title>sQuick – Уроки рисования аниме и манги с нуля</title>
+    <meta
+      name="description"
+      content="Учу рисовать аниме с нуля. Галерея работ, туториалы и гайды от Скуика."
+    />
+
+    <!-- Open Graph / Соцсети -->
+    <meta property="og:title" content="sQuick – Арты и уроки рисования аниме" />
+    <meta
+      property="og:description"
+      content="Рисую в стиле аниме и обучаю с нуля"
+    />
+    <meta property="og:image" content="https://squick.art" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content="https://squick.art" />
+    <meta property="og:type" content="website" />
+
+    <!-- Иконка -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Шрифты (быстрее) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Стили -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-theme="dark">
+    <header>
+      <img src="logo.png" alt="Логотип SquickArt" class="logo" />
+      <div class="burger"><span></span><span></span><span></span></div>
+      <nav id="nav-menu">
+        <a href="#home">Главная</a>
+        <a href="#gallery">Галерея</a>
+        <a href="#videos">Туториалы</a>
+        <a href="#about">Обо мне</a>
+        <a href="#register">Чек-лист</a>
+        <a href="#contact">Соцсети</a>
+      </nav>
+      <button
+        class="theme-toggle"
+        title="Сменить тему"
+        aria-label="Переключить тёмную/светлую тему"
+      >
+        🌙
+      </button>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <!-- HERO – лёгкий и супер-быстрый параллакс -->
+      <section class="hero" id="home">
+        <div class="parallax" data-speed="0.5"></div>
+        <div class="hero-content">
+          <h1>Как начать рисовать с нуля</h1>
+          <p>
+            Научись создавать своих персонажей и рассказывать истории с помощью
+            рисунков.
+          </p>
+          <a href="#gallery" class="btn">Смотреть работы</a>
+        </div>
+      </section>
+      <!-- Галерея -->
+      <section id="gallery" class="section">
+        <h2>Мои рисунки</h2>
+        <div class="gallery">
+          <a href="monster.jpg" class="glightbox" data-gallery="gallery">
+            <img src="monster.jpg" alt="johan" loading="lazy" />
+          </a>
+          <a href="anna.jpg" class="glightbox" data-gallery="gallery">
+            <img src="anna.jpg" alt="anna yanami" loading="lazy" />
+          </a>
+          <a href="waguri.jpg" class="glightbox" data-gallery="gallery">
+            <img src="waguri.jpg" alt="waguri" loading="lazy" />
+          </a>
+          <a href="tatsumaki.jpg" class="glightbox" data-gallery="gallery">
+            <img src="tatsumaki.jpg" alt="tatsumaki" loading="lazy" />
+          </a>
+          <a href="lawliet.jpg" class="glightbox" data-gallery="gallery">
+            <img src="lawliet.jpg" alt="l lawliet" loading="lazy" />
+          </a>
+          <a href="gabimaru.jpg" class="glightbox" data-gallery="gallery">
+            <img src="gabimaru.jpg" alt="gabimaru" loading="lazy" />
+          </a>
+        </div>
+      </section>
+
+      <!-- Туториалы -->
+      <section id="videos" class="section">
+        <h2>Туториалы и гайды</h2>
+        <div class="video-grid">
+          <div class="video-card">
+            <iframe
+              src="https://www.youtube.com/embed/G9ufRhWNeB8"
+              title="Основы перспективы"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              loading="lazy"
+            >
+            </iframe>
+            <h3>Основы перспективы</h3>
+          </div>
+          <div class="video-card">
+            <iframe
+              src="https://www.youtube.com/embed/225mwT-gGu8"
+              title="Как штриховать"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              loading="lazy"
+            >
+            </iframe>
+            <h3>Как штриховать</h3>
+          </div>
+          <div class="video-card">
+            <iframe
+              src="https://www.youtube.com/embed/fNM72N6E40I"
+              title="Как рисовать тело"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              loading="lazy"
+            >
+            </iframe>
+            <h3>Как рисовать тело</h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- Обо мне -->
+      <section id="about" class="section">
+        <h2>Обо мне</h2>
+        <p>
+          Привет! Меня зовут Сунгат, мне 17 лет. Учусь в КазНТУ им. Сатпаева на
+          IT-специальности.<br />
+          Рисую аниме-арты, делаю туториалы и хочу помогать начинающим
+          художникам развиваться!
+        </p>
+      </section>
+
+      <!-- Чек-лист -->
+      <section id="register" class="section">
+        <h2>
+          Получи бесплатный чек-лист<br />
+          <span style="font-size: 0.6em; color: #aaa">
+            Оставь заявку снизу!
+          </span>
+        </h2>
+        <div class="form-box">
+          <form action="https://formspree.io/f/твой-id" method="POST">
+            <input type="text" name="name" placeholder="Твоё имя" required />
+            <input type="email" name="_replyto" placeholder="Email" required />
+            <button type="submit">Получить чек-лист</button>
+          </form>
+          <p class="form-note">Без спама — только полезное</p>
+        </div>
+      </section>
+
+      <!-- Соцсети -->
+      <section id="contact" class="section contact-section">
+        <h2>Мои соцсети</h2>
+        <div class="socials">
+          <a href="https://t.me/squickart" target="_blank" rel="noopener">
+            <img src="telegram.png" alt="Telegram" />
+          </a>
+          <a
+            href="https://www.tiktok.com/@squick_art"
+            target="_blank"
+            rel="noopener"
+          >
+            <img src="tiktok.png" alt="TikTok" />
+          </a>
+          <a
+            href="https://www.instagram.com/sungattoo"
+            target="_blank"
+            rel="noopener"
+          >
+            <img src="instagram.png" alt="Instagram" />
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 SquickArt | Все права защищены</p>
+    </footer>
+
+    <button id="toTop" title="Наверх">↑</button>
+
+    <!-- Скрипты -->
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script>
+      const lightbox = GLightbox({
+        selector: ".glightbox",
+      });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
